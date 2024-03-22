@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.head{
+  display: flex;
+
+  align-items: justify-between;
+  background-color: black;
+  width: 90%;
+  padding: 10px;
+}
+
+.mini-head {
+  color:bisque;
+  font-family: sans-serif;
+}
+
+input {
+  width: 35%;
+  margin: 25px;
+  font-weight: bold;
+  padding-left: 5px;
+color: black;
+border-radius: 5px;
+}
+
+.result{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  color: bisque;
+  padding: 10px;
+  
+}
